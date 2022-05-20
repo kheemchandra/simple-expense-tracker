@@ -1,0 +1,17 @@
+.ExpenseFilter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  padding-inline: 15px;
+}
+
+.ExpenseFilter__options{
+  height: 45px;
+  padding-inline: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+}

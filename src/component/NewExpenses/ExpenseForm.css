@@ -1,0 +1,51 @@
+.form-wrapper{
+
+
+  background-color: rgb(193, 130, 238);
+  max-width: 800px;
+  width: 93vw;
+  margin: auto;
+  margin-top: 30px;
+
+  /* border-radius: 15px; */
+  padding-inline: 15px;
+  padding-block: 20px;
+}
+.ExpenseForm{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.ExpenseForm > div{
+  display: flex;
+  flex-direction: column;
+}
+
+.ExpenseForm-label {
+  font-weight: bold;
+}
+
+.ExpenseForm-control{
+  width: 325px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+
+.ExpenseForm-button{
+  color: white;
+  background-color: rgb(32, 2, 73);
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: 15px;
+  display: block;
+  padding-block: 18px;
+  padding-inline: 30px;
+  border-radius: 10px;
+}

@@ -1,0 +1,31 @@
+.expenseItem{
+  list-style: none;
+  background-color: #343434;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+
+  border-radius: 15px;
+}
+
+.expenseItem__title{
+  justify-self: flex-start;
+  margin-left: 20px;
+}
+
+.expenseItem__amount{
+  border: 1px solid white;
+  background-color: rgb(32, 2, 73);
+  /* margin-right: 5px; */
+  margin-left: auto;
+  display: block;
+
+  padding-block: 8px;
+  padding-inline: 20px;
+
+  border-radius: 10px;
+}
